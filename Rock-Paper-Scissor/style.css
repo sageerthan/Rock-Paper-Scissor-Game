@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    margin: 0;
+    background-image: url("rock.jpg"); 
+    background-repeat:no-repeat;  
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width:500px;
+    background-color: rgba(240, 248, 255, 0.749);
+    margin-top: 150px;
+    margin-left:500px;
+}
+h1{
+    color: #060606;
+    font-size: 40px;
+}
+#choices button{
+    font-size:5.5rem;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #060606;
+    cursor: pointer;
+}
+#choices button:hover{
+    background-color: #060606af;
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 4rem ;
+    margin: 10px;
+}
+#scoreDisplay{
+    font-size: 2rem;
+}
+.greenTxt, #playerScoreDisplay{
+    color: hsl(120, 100%, 25%);
+    font-size: 25px;
+}
+.redTxt,#computerScoreDisplay{
+    color: hsl(0, 94%, 50%);
+    font-size: 25px;
+}
